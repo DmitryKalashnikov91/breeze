@@ -5,6 +5,6 @@ $(function () {
         text.fadeTo(4000, 1);
     }
     $(window).scroll(function () {
-        $('.intro__content').slideUp(2000, showAbout());
+        $('.intro__content img').fadeTo(2000, 0, showAbout());
     });
 });

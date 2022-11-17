@@ -37,6 +37,9 @@ body {
     color:aliceblue;
     text-decoration: none;
 }
+.intro__navigate li {
+    transition: all 400ms;
+}
 .intro__navigate li:hover {
     transform: scale(1.2);
 }
@@ -77,6 +80,9 @@ body {
     position: relative;
     z-index: 9;
     color:aliceblue
+}
+.intro__about p {
+    font-size: 22px;
 }
 @media (max-width:900px) {
     .intro__content img {

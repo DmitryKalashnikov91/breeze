@@ -9,34 +9,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
         <link rel="stylesheet" href="style.css" />
         <title>Marine Breeze</title>
     </head>
     <body>
         <div class="intro">
-            <div class="intro__navigate">
-                <nav>
-                    <ul>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>   
-                </nav>
-            </div>
+                <div class="intro__navigate">
+                    <nav>
+                        <ul>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>   
+                    </nav>
+                </div>  
             <div class="intro__media">
                 <video src="./video/volny.mp4" autoplay muted loop preload="auto" id="bgvideo"></video>
             </div>
-            <div class="intro__content" data-aos="zoom-in" data-aos-duration="2000"><img src="./images/logo_marin.png" alt="logo" ><div>
-            <div class="intro__about">
-                <p>
-                    Marine breeze - дилер подвесных лодочных моторов в России. Даже в это не простое время мы
-                    помогаем обновлять мощности нашим клиентам, осуществляя параллельный импорт.
-                </p>
+            <div class="z-container">
+                <div class="intro__content img">
+                    <div class="frame">
+                        <img src="./images/logo_marin.png" alt="logo" >
+                    </div>
+                    
+                <div>
+                    <div class="intro__content about">
+                        <div class="frame frame-bg">
+                            <p>
+                                Marine breeze - дилер подвесных лодочных моторов в России. Даже в это не простое время мы
+                                помогаем обновлять мощности нашим клиентам, осуществляя параллельный импорт.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="./js/jquery-3.6.1.min.js"></script>
-        <script src="./js/main.js"></script>
+        <script src="./js/main.js" defer></script>
     </body>
 </html>

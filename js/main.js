@@ -1,7 +1,7 @@
 let zSpacing = -1000,
     lastPos = zSpacing / 5,
-    $frames = document.getElementsByClassName('frame'),
-    frames = Array.from($frames),
+    framesAll = document.getElementsByClassName('frame'),
+    frames = Array.from(framesAll),
     zVals = [];
 
 window.onscroll = function () {
